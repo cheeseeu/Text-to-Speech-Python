@@ -17,7 +17,12 @@ print ("Volume set to: " + str(volume))
 def log(message): # print a message with [System] at the start
     print(f"[System] {message}") 
 
-text = input('What do you want to convert to audio? ')
+try:
+    with open('input.txt', 'r') as file:
+        text = file.read()
+except FileNotFoundError:
+    text = input('No input.txt file not found. What do you want to convert to audio? ')
+
 save = input('Would you like to save this as an mp3? (y/n)')
 
 if save == "y":
