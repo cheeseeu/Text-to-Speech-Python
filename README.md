@@ -10,4 +10,6 @@ Choose your options, and done!
 
 ## Config:
 
-You can change the speaking rate and the volume in the text-to-speech.py file in the config section!
+You can change the speaking rate and the volume in the text-to-speech.py file (below the import, you will see 2 lines of code underneath the config comment)
+
+:)
