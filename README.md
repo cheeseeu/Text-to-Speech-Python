@@ -8,6 +8,8 @@ Run in terminal:
 
 Choose your options, and done!
 
+If you want, you can make a input.txt file and it will read from there, or you can just input thetext in console.
+
 ## Config:
 
 You can change the speaking rate and the volume in the text-to-speech.py file (below the import, you will see 2 lines of code underneath the config comment)
