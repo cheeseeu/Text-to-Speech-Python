@@ -1,6 +1,5 @@
 import pyttsx3
 engine = pyttsx3.init()
-from colorama import Fore, Back, Style
 
 #config
 speakingRate = 125 #speaking rate
