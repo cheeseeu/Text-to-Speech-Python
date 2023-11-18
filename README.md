@@ -8,6 +8,6 @@ Run in terminal:
 
 Choose your options, and done!
 
-##Config:
+## Config:
 
 You can change the speaking rate and the volume in the text-to-speech.py file in the config section!
