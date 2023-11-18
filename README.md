@@ -7,3 +7,7 @@ Run in terminal:
 `python text-to-speech.py`
 
 Choose your options, and done!
+
+##Config:
+
+You can change the speaking rate and the volume in the text-to-speech.py file in the config section!
