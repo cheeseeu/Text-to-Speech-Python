@@ -17,6 +17,7 @@ print ("Volume set to: " + str(volume))
 def log(message): # print a message with [System] at the start
     print(f"[System] {message}") 
 
+#check if there is a input.txt file. If not, ask user for input. If there is, set the "text" property to the files contents
 try:
     with open('input.txt', 'r') as file:
         text = file.read()
